@@ -5,7 +5,9 @@ import { FaMoon } from "react-icons/fa";
 import React from "react";
 
 function Header() {
-  {/* useLocation is used when you want to store (specifically below) the path to be used later. Such as /home or /about */}
+  {
+    /* useLocation is used when you want to store (specifically below) the path to be used later. Such as /home or /about */
+  }
   const path = useLocation().pathname;
   return (
     <Navbar className="border-b-2">
@@ -35,7 +37,9 @@ function Header() {
           <FaMoon />
         </Button>
         <Link to="/sign-in">
-          <Button color="dark" outline>Sign In</Button>
+          <Button color="dark" outline>
+            Sign In
+          </Button>
         </Link>
         <Navbar.Toggle />
       </div>
